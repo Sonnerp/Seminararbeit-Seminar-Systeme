@@ -1,0 +1,126 @@
+%% Seiteneinstellung
+\documentclass[a4paper,11pt]{scrartcl} %Dokument Klasse ohne chapter, wegen Header
+\usepackage[left=2cm,right=2cm, top=3cm, bottom=3cm]{geometry} %Seitenränder
+\linespread{1.5}
+\setkomafont{disposition}{\bfseries}
+\usepackage{times}
+
+%% Kopfzeile  & Fußzeile
+\usepackage[headsepline,footsepline]{scrlayer-scrpage} %Paket für Kopf-und Fußzeile incl. Line
+\usepackage{scrlfile}
+\pagestyle{headings}
+\clearpairofpagestyles %Alle Platzhalter werden geleert um zu befüllen 
+\ihead{\headmark} %Kopfzeile links
+\automark{section} %Kapitelüberschriften in der Kopfzeile
+\ohead{\includegraphics[height = 0.8 cm]{Input/Bilder/Hochschule.png}} %Kopfzeile rechts
+\ofoot{\pagemark} %Seitenanzahl Rechts einfügen
+
+%% Allgemeine Pakete
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel} %Rechtschreibung deutsch
+
+\setcounter{secnumdepth}{5} %Nummerierung der Absätze
+\setcounter{tocdepth}{5}
+
+\usepackage{eurosym} %Eurosymbol
+\usepackage{lipsum} %Platzhalter-Text
+\usepackage{xcolor} %Farben
+
+%% Schriftart
+\renewcommand{\rmdefault}{phv} %Fließtext, phv für Helvetica, ptm für Times new Roman
+\renewcommand{\sfdefault}{phv} %Überschriften, Beschreibungen, phv für Helvetica
+
+%% Absatz Einstellungen
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0cm}
+
+%% Grafikpakete
+\usepackage{graphicx} %erlaubt Grafiken einzubinden 
+\usepackage{float} %erlaubt die Grafiken im Text zu fixieren
+
+%% Einbinden von PDFs
+\usepackage{pdfpages}
+
+%% Formeln/Mathematikumgebung
+%\usepackage{mathptmx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{siunitx}
+
+%% Abkürzungsverzeichnis 
+\usepackage[printonlyused]{acronym}
+
+%%Literaturverzeichnis
+\usepackage{csquotes}
+\usepackage[hidelinks]{hyperref}
+\usepackage[backend=biber,defernumbers=false]{biblatex}
+\addbibresource{Input/Literatur.bib} %Einbinden der passenden Datei
+
+
+%% \FloatBarrier
+\usepackage{placeins}
+
+
+%\input{Input/Header.tex}
+
+\begin{document}
+
+\input{Input/Text/0_Deckblatt.tex}
+
+\clearpage
+\pagenumbering{Roman}
+
+\input{Input/Text/0.1_Kurzfassung.tex}
+\newpage
+
+%Inhaltsverzeichnis
+\tableofcontents
+\newpage
+
+%Abkürzungsverzeichnis
+\input{Input/Text/0.2_Abkürzungsverzeichnis.tex}
+\newpage
+
+%Abbildungsverzeichnis
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+\listoffigures
+\newpage
+
+%Tabellenverzeichnis
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
+\listoftables
+\newpage
+
+%%Hauptteil
+\clearpage
+\pagenumbering{arabic}
+
+\input{Input/Text/1_Motivation.tex}
+\newpage
+
+\input{Input/Text/2_Aktueller Stand.tex}
+\newpage
+
+\input{Input/Text/3_Wertschöpfungsketten.tex}
+\newpage
+
+\input{Input/Text/4_Methoden.tex}
+\newpage
+
+\input{Input/Text/5_Fazit.tex}
+\newpage
+
+%%Anhang
+\clearpage 
+\pagenumbering{Roman}
+
+\input{Input/Text/6_Anhang.tex}
+\newpage 
+
+%Literaturverzeichnis nach Abbildungen, Bücher, Datenblatt, Normen, Internet
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\printbibliography[title=Literaturverzeichnis]
+\newpage
+
+\end{document}
