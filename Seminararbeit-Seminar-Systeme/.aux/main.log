@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.7)  4 JAN 2024 16:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.7)  4 JAN 2024 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,7 +7,7 @@ entering extended mode
 (c:/Users/patri/OneDrive/Dokumente/4_Studium/2_München/3_Seminar-Systeme/2_Ausarbeitung/Seminararbeit-Seminar-Systeme/main.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
-(C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
+(Input/Text/Header.tex (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
 Document Class: scrartcl 2023/07/07 v3.41 KOMA-Script document class (article)
 (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
 Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -142,9 +142,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen147
 \Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks18
- (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
-Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
-) (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-scrpage.sty
+ (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2023/07/07 v3.41 KOMA-Script package (end user interface for scrlayer)
  (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.sty
 Package: scrlayer 2023/07/07 v3.41 KOMA-Script package (defining layers and page styles)
@@ -160,10 +158,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@posthook=\toks20
 ) (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
- (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)) (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+) (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2023/09/29 v3.95 The Babel package
 \babel@savecnt=\count197
 \U@D=\dimen149
@@ -246,6 +241,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box55
 \@float@everytoks=\toks22
 \@floatcapt=\box56
+) (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
 ) (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
  (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
@@ -478,7 +475,7 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \c@LT@chunks=\count320
 \LT@p@ftn=\toks34
 )
-Class scrartcl Info: longtable captions redefined on input line 58.
+Class scrartcl Info: longtable captions redefined on input line 63.
  (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count321
@@ -840,34 +837,35 @@ Package biblatex Info: ... and expl3
 Package: xparse 2023-08-29 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
-Package: placeins 2005/04/18  v 2.2
-)
+)))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (c:/Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.aux)
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 3.
+ (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+) (c:/Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -944,7 +942,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 78.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 3.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -953,7 +951,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 78.
+Package hyperref Info: Link coloring OFF on input line 3.
  (c:/Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.out) (c:/Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -965,7 +963,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 78.
+(scrartcl)           before \begin{document} on input line 3.
  (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (C:\Users\patri\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
@@ -995,8 +993,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 78.
-Package biblatex Info: Reference segment=0 on input line 78.
+Package biblatex Info: Reference section=0 on input line 3.
+Package biblatex Info: Reference segment=0 on input line 3.
 (Input/Text/0_Deckblatt.tex
 <Input/Bilder/HM-Logo-rot-Schriftzug.png, id=3, 1003.75pt x 273.52188pt>
 File: Input/Bilder/HM-Logo-rot-Schriftzug.png Graphic file (type png)
@@ -1009,7 +1007,7 @@ Package pdftex.def Info: Input/Bilder/HM-Logo-rot-Schriftzug.png  used on input 
 <Input/Bilder/Hochschule.png, id=12, 2007.5pt x 926.46124pt>
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 86.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 11.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
 
 
@@ -1020,7 +1018,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=29.28734pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 86.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 11.
 
 
 Overfull \vbox (11.16234pt too high) has occurred while \output is active []
@@ -1035,7 +1033,7 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                e.g., using
 (scrlayer-scrpage)                  \setlength{\footheight}{21.74998pt}
 (scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 86.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 11.
 
 [1
 
@@ -1045,12 +1043,12 @@ Package scrlayer-scrpage Warning: \footheight to low.
 
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 90.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 15.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
  [2] (Input/Text/0.2_Abkürzungsverzeichnis.tex)
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 94.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 19.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
  [3] (c:/Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.lof)
 \tf@lof=\write6
@@ -1058,7 +1056,7 @@ Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 94.
 
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 99.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 24.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
  [4] (c:/Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.lot)
 \tf@lot=\write7
@@ -1066,55 +1064,55 @@ Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 99.
 
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 104.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 29.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
  [5] (Input/Text/1_Motivation.tex)
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 111.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 36.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \newpage
-               [1
+l.36 \newpage
+              [1
 
 ] (Input/Text/2_Aktueller Stand.tex)
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 114.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 39.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
  [2] (Input/Text/3_Wertschöpfungsketten.tex)
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 117.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 42.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
  [3] (Input/Text/4_Methoden.tex)
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 120.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 45.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
  [4] (Input/Text/5_Fazit.tex)
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 123.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 48.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
  [5] (Input/Text/6_Anhang.tex)
 File: Input/Bilder/Hochschule.png Graphic file (type png)
 <use Input/Bilder/Hochschule.png>
-Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 130.
+Package pdftex.def Info: Input/Bilder/Hochschule.png  used on input line 55.
 (pdftex.def)             Requested size: 49.31743pt x 22.76228pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130 \newpage
-               [1
+l.55 \newpage
+              [1
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 134.
+LaTeX Warning: Empty bibliography on input line 59.
 
 (c:/Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.aux)
  ***********
@@ -1128,15 +1126,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31351 strings out of 475248
- 650817 string characters out of 5757813
+ 31345 strings out of 475248
+ 650646 string characters out of 5757813
  1928785 words of memory out of 5000000
- 52439 multiletter control sequences out of 15000+600000
- 581488 words of font info for 62 fonts, out of 8000000 for 9000
+ 52431 multiletter control sequences out of 15000+600000
+ 582252 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,23n,107p,11094b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,23n,110p,11124b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/patri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/patri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/patri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on c:/Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\main.pdf (12 pages, 133039 bytes).
+Output written on c:/Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\main.pdf (12 pages, 136182 bytes).
 PDF statistics:
  159 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
