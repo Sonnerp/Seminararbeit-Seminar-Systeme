@@ -1,4 +1,86 @@
-\input{Input/Text/Header.tex}
+%% Seiteneinstellung
+\documentclass[a4paper,12pt]{scrartcl} %Dokument Klasse ohne chapter, wegen Header
+\usepackage[left=2cm,right=2cm, top=3cm, bottom=3cm]{geometry} %Seitenränder
+\linespread{1.5} %zeilenabstand
+\setkomafont{disposition}{\bfseries}
+%\usepackage{times}
+
+%% Kopfzeile  & Fußzeile
+\usepackage[headsepline,footsepline]{scrlayer-scrpage} %Paket für Kopf-und Fußzeile incl. Line
+\usepackage{scrlfile}
+\pagestyle{headings}
+\clearpairofpagestyles %Alle Platzhalter werden geleert um zu befüllen 
+\ihead{\headmark} %Kopfzeile links
+\automark{section} %Kapitelüberschriften in der Kopfzeile
+\ohead{\includegraphics[height = 0.8 cm]{Input/Bilder/Hochschule.png}} %Kopfzeile rechts
+\ofoot{\pagemark} %Seitenanzahl Rechts einfügen
+
+%% Allgemeine Pakete
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel} %Rechtschreibung deutsch
+%Überschriften
+\setcounter{secnumdepth}{5} %Nummerierung der Absätze
+\setcounter{tocdepth}{5} %Wie viele Ebenen im Inhaltsverzeichnis stehen
+\RedeclareSectionCommand[afterskip=1sp]{section} %Abstand nach Überschriften
+\RedeclareSectionCommand[afterskip=1sp]{subsection} %Anstand nach Unterüberschriften
+\RedeclareSectionCommand[afterskip=1sp]{subsubsection} %Anstand nach Unterunterüberschriften
+\setlength{\parskip}{6pt} %Abstand nach Absatz
+\setlength{\parindent}{0cm} %Einrücken zu Beginn des Absatzes
+
+\usepackage{eurosym} %Eurosymbol
+\usepackage{lipsum} %Platzhalter-Text
+\usepackage{xcolor} %Farben
+\definecolor{HMrot}{RGB}{218,92,92}   
+
+%% Schriftart
+\renewcommand{\rmdefault}{ptm} %Fließtext, phv für Helvetica, ptm für Times new Roman
+\renewcommand{\sfdefault}{ptm} %Überschriften, Beschreibungen, phv für Helvetica
+
+%Datum
+\usepackage{advdate}
+\newcommand{\yesterday}{{\AdvanceDate[-1]\today}}
+\newcommand{\tomorrow}{{\AdvanceDate[1]\today}}
+
+%% Grafikpakete
+\usepackage{graphicx} %erlaubt Grafiken einzubinden 
+\usepackage{float} %erlaubt die Grafiken im Text zu fixieren
+\usepackage{placeins} %\FloatBarrier verhindert, dass Text an Bildern/Tabellen vorbei kann.
+
+%% Grafiken erstellen
+\usepackage{pgf-pie}
+
+%% Einbinden von PDFs
+\usepackage{pdfpages}
+
+%% Formeln/Mathematikumgebung
+\usepackage{siunitx}
+\usepackage{amsmath}
+
+%%Tabellen%% 
+\usepackage{booktabs} %Für horizontale Linien \toprule, \midrule, \bottomrule, \cmidrule
+\usepackage{tabularx} %Für die Umgebung 
+\usepackage{colortbl} %Für farbige Felder
+\usepackage{array}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\usepackage[tableposition=top]{caption}
+\usepackage{longtable}
+\usepackage{rotating} %lässt Text rotieren
+\newcommand\tabrotate[1]{\begin{turn}{90}\rlap{#1}\end{turn}}
+\usepackage{multirow} %zeilenzusammenfassung
+\usepackage{makecell} %Zeilenumbruch
+
+%% Abkürzungsverzeichnis 
+\usepackage[printonlyused]{acronym}
+
+%%Literaturverzeichnis
+\usepackage{csquotes}
+\usepackage[hidelinks]{hyperref}
+\usepackage[backend=biber,style=numeric, sorting=none]{biblatex}
+\urlstyle{same}
+\addbibresource{Input/Literatur/Literatur.bib} %Einbinden der passenden Datei
+
+%\input{Input/Text/Header.tex}
 
 \begin{document}
 

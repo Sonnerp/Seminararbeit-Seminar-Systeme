@@ -1,0 +1,107 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Schmidt.2019}{book}{}
+      \name{author}{4}{}{%
+        {{hash=c78b93de6faeac32e81666d4dfd57404}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=0810b62fd50f8c1cbe1e09804b6030e7}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Felicitas},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4ea43fc2f2fc44fc77aeef30cc326f0c}{%
+           family={Leverenz},
+           familyi={L\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=662ea6483b7d8e93d3a29fd0ef5941f7}{%
+           family={Hafner},
+           familyi={H\bibinitperiod},
+           given={Gerold},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Braunschweig}%
+      }
+      \list{publisher}{1}{%
+        {Johann-Heinrich-von-Thünen-Institut}%
+      }
+      \strng{namehash}{5f67b3cd816a4731de563c1baf3e2c22}
+      \strng{fullhash}{77696251afeaa440491ca8cc56459994}
+      \strng{bibnamehash}{5f67b3cd816a4731de563c1baf3e2c22}
+      \strng{authorbibnamehash}{5f67b3cd816a4731de563c1baf3e2c22}
+      \strng{authornamehash}{5f67b3cd816a4731de563c1baf3e2c22}
+      \strng{authorfullhash}{77696251afeaa440491ca8cc56459994}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nach FAO-Angaben werden weltweit etwa ein Drittel aller produzierten Lebensmittel weggeworfen. Die Reduzierung dieser Lebensmittelverschwendung auf Einzelhandels- und Verbraucherebene um 50 {\%} bis 2030 ist eine gesamtgesellschaftliche Herausforderung, der sich auch die Bundesregierung stellt und u. a. eine Nationale Strategie zur Reduzierung der Lebensmittelverschwendung beschloss sowie einen entsprechenden Indikator für die Deutsche Nachhaltigkeitsstrategie prüft. Der hier vorliegende Entwurf einer Baseline stellt eine Entscheidungsgrundlage für die Berechnung und Berichterstattung der Lebensmittelabfälle 2015 in Deutschland dar. Daten und Methoden sowie die daraus resultierenden Ergebnisse inklusive Qualitätsreport sind auch konform mit dem entsprechenden und ebenfalls im Entwurf vorliegenden Delegierten Beschluss der EU für die zukünftige Berichterstattung. Die Baseline-Berechnung erfolgt grundsätzlich auf der Datenbasis von 2015, wobei entweder die Erhebungen genau aus diesem Jahr stammen, oder von den zeitlich am nächsten liegenden Erhebungen anderer Jahre übertragen werden. Dies gilt besonders auch für die angewandten Koeffizienten, die sich meist aus Abfallanalysen und Befragungen oder Buchungsdaten und sonstigen Erhebungen herleiten. Die Gesamtabfallmenge 2015 für Lebensmittelabfälle in Deutschland beträgt fast 11,9 Millionen Tonnen Frischmasse, wobei die Primärproduktion einen Anteil von 12 {\%} (1,36 Mio. t), die Verarbeitung von 18 {\%} (2,17 Mio. t), der Handel von 4 {\%} (0,49 Mio. t) und die Au{ß}er-Haus-Verpflegung von 14 {\%} (1,69 Mio. t) ausmacht. Der Gro{ß}teil der Lebensmittelabfälle entsteht mit 52 {\%} (6,14 Mio. t) in privaten Haushalten, dies entspricht etwa 75 kg pro Kopf im Jahr 2015. Über alle Sektoren hinweg wäre nach den vorliegenden Hochrechnungen etwa die Hälfte der Abfälle theoretisch vermeidbar. Die Qualität der Daten und der Datenanalyse wurde ergänzend bewertet. Unsicherheiten in der Datenlage bestehen vor allem in den Bereichen Primärproduktion, Verarbeitung und Handel. Insbesondere beeinflusst der Handelssektor die Lebensmittelabfälle im vorgelagerten Bereich z. B. durch Qualitätsansprüche und Retouren sowie im Konsumbereich durch Kaufanreize. Eine koordinierte Zusammenarbeit mit Akteuren aus Primärproduktion, Verarbeitung und Handel sowie Konsum ist notwendig, um zukünftig die Datenlage zu verbessern und Schnittstellen zu optimieren. Die vorliegende Baseline berichtet die Lebensmittelabfälle in Tonnen Frischmasse, ohne deren Wertigkeit und die Trends zu berücksichtigen. Für eine Nachhaltigkeitsbewertung reicht dies nicht aus. Zukünftig müssten dafür ökologische, ökonomische und soziale Ableitungen aus der Baseline folgen, die dann auch z. B. den Klimaschutzplan 2050 unterstützen könnten. Signifikante Veränderungen im Zeitablauf geben darüber hinaus Aufschluss über positive oder auch negative Trends und sind somit ein Gradmesser für allgemeine Entwicklungen in Kombination mit Ma{ß}nahmen zur Reduzierung der Lebensmittelverschwendung. According to FAO data, about one-third of all food produced worldwide is discarded. Reducing this food waste by 50 {\%} at the retail and consumer levels until the year 2030 is a societal challenge currently faced by the German government as well. The German National Strategy for Food Waste Reduction and German's Strategy for Sustainable Development address this topic. The draft of a baseline presented here provides a basis for decision-making for the calculation and reporting of food waste 2015 in Germany. Data and methods as well as the results, including the quality report, are also compliant with the relevant EU Delegated Decision for future reporting. The baseline calculation is based on data from 2015, whereby surveys either originate from this year, or are transferred from the most recent surveys of other years. This applies in particular to the applied coefficients derived from waste analyses, surveys and accounting data, or other records. The total amount of food waste produced in 2015 in Germany amounts to almost 11.9 million tons of fresh mass, with primary production accounting for 12 {\%} (1.36 million tons); processing 18 {\%} (2.17 million tons); trade 4 {\%} (0.49 million tons) and out-of-home catering for 14 {\%} (1.69 million tons). The bulk of food waste is generated in private households at 52 {\%} (6.14 million tons), which is equivalent to about 75 kg per capita in 2015. Across all sectors, about half of the waste could theoretically be avoidable. Both the quality of the data and the data analysis are assessed. Uncertainties in the data situation exist above all in the areas of primary production, processing and trading. In particular, the retail sector influences food waste in the upstream sector due to quality claims and returns as well as in the consumer sector due to purchase incentives. Coordinated cooperation with actors from primary production, processing and trading as well as consumption is necessary in order to improve the data situation and optimize interfaces in the future. The present baseline reports the food waste in tons of fresh mass without considering its value and the trends. This is not enough for a sustainability assessment. In the future, ecological, economic and social inferences from the baseline would have to follow. For example, they could support the Climate Action Plan 2050. Significant changes over time also shed light on positive or negative trends, and thus provide a gauge of overall trends in combination with measures to reduce food waste.}
+      \field{isbn}{978-3-86576-198-9}
+      \field{series}{Thünen-Report}
+      \field{title}{Lebensmittelabfälle in Deutschland - Baseline 2015}
+      \field{volume}{71}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 204462
+      \endverb
+      \verb{urlraw}
+      \verb http://d-nb.info/1195065183/
+      \endverb
+      \verb{url}
+      \verb http://d-nb.info/1195065183/
+      \endverb
+      \warn{\item book entry 'Schmidt.2019' (Input/Literatur/Literatur.bib): Invalid format '04.01.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{StatistischesBundesamt.2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c67d4b4a4397f84a4fe4580e6f9aa63d}{%
+           family={{Statistisches Bundesamt}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{fullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{bibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorbibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authornamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorfullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lebensmittelabfälle in Deutschland: Lebensmittelabfälle in Deutschland im Berichtsjahr 2020 (vorläufiges Ergebnis)}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Umwelt/Abfallwirtschaft/Tabellen/lebensmittelabfaelle.html
+      \endverb
+      \verb{url}
+      \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Umwelt/Abfallwirtschaft/Tabellen/lebensmittelabfaelle.html
+      \endverb
+      \warn{\item misc entry 'StatistischesBundesamt.2022' (Input/Literatur/Literatur.bib): Invalid format '04.01.2024' of date field 'urldate' - ignoring}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
