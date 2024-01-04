@@ -1,9 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[1] Config.pm:310> INFO - Logfile is 'C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\.aux\Seminar_Systeme.blg'
-[307] biber-MSWIN64:340> INFO - === 
-[401] Biber.pm:419> INFO - Reading 'C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\.aux\Seminar_Systeme.bcf'
-[732] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[784] bbl.pm:660> INFO - Writing 'C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\.aux\Seminar_Systeme.bbl' with encoding 'UTF-8'
-[785] bbl.pm:763> INFO - Output to C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\.aux\Seminar_Systeme.bbl
-[786] Biber.pm:131> WARN - The file 'C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\.aux\Seminar_Systeme.bcf' does not contain any citations!
-[786] Biber.pm:133> INFO - WARNINGS: 1
