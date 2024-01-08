@@ -2,16 +2,15 @@
 \contentsline {section}{\nonumberline Kurzfassung}{I}{section*.2}%
 \contentsline {section}{\nonumberline Abkürzungsverzeichnis}{III}{section*.5}%
 \contentsline {section}{Abbildungsverzeichnis}{IV}{section*.5}%
-\contentsline {section}{Tabellenverzeichnis}{V}{section*.6}%
-\contentsline {section}{\numberline {1}Motivation}{1}{section.1}%
-\contentsline {section}{\numberline {2}Aktueller Stand}{2}{section.2}%
-\contentsline {section}{\numberline {3}Wertschöpfungsketten}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Molkereiindustrie}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Fleisch- und Wurstwarenindustrie}{4}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Backwarenindustrie}{4}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Implementierte Methoden}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Praxisbeispiele}{5}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Fazit}{6}{section.5}%
-\contentsline {section}{\nonumberline Anhang}{I}{section*.10}%
-\contentsline {section}{Literaturverzeichnis}{II}{section*.10}%
+\contentsline {section}{Tabellenverzeichnis}{IV}{section*.6}%
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {section}{\numberline {2}\acs {ki} zur Bekämpfung von Lebensmittelverschwendung}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Milch- und Molkereiprodukte}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Wurst- und Fleischindustrie}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Bachwaren}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Projekte}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}PigVisio}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}REIF}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Fazit}{7}{section.4}%
+\contentsline {section}{Literaturverzeichnis}{I}{section.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

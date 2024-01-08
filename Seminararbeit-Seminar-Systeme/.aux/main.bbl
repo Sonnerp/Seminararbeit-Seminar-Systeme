@@ -87,8 +87,111 @@
       \strng{authorbibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
       \strng{authornamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
       \strng{authorfullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Internationales: 735 Millionen Menschen weltweit haben nicht genug zu essen}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/landwirtschaft-fischerei/Unterernaehrung.html
+      \endverb
+      \verb{url}
+      \verb https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/landwirtschaft-fischerei/Unterernaehrung.html
+      \endverb
+      \warn{\item misc entry 'StatistischesBundesamt.2022' (Input/Literatur/Literatur.bib): Invalid format '04.01.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Cederberg.2011}{book}{}
+      \name{author}{2}{}{%
+        {{hash=b487cc070a4e365794bce62b00559d9f}{%
+           family={Cederberg},
+           familyi={C\bibinitperiod},
+           given={Christel},
+           giveni={C\bibinitperiod}}}%
+        {{hash=37c2ae71cccf64193c4b22c7cc9cd2bf}{%
+           family={Sonesson},
+           familyi={S\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {International Congress Save Food!}%
+        {Interpack}%
+      }
+      \list{location}{1}{%
+        {Rome}%
+      }
+      \list{publisher}{1}{%
+        {Food and Agriculture Organization of the United Nations}%
+      }
+      \strng{namehash}{20c9e99141bed6df85653f81a65cb650}
+      \strng{fullhash}{20c9e99141bed6df85653f81a65cb650}
+      \strng{bibnamehash}{20c9e99141bed6df85653f81a65cb650}
+      \strng{authorbibnamehash}{20c9e99141bed6df85653f81a65cb650}
+      \strng{authornamehash}{20c9e99141bed6df85653f81a65cb650}
+      \strng{authorfullhash}{20c9e99141bed6df85653f81a65cb650}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Literaturverz. S. 16 - 22}
+      \field{isbn}{978-92-5-107205-9}
+      \field{title}{Global food losses and food waste: Extent, causes and prevention; study conducted for the International Congress Save Food! at Interpack 2011, [16 - 17 May], Düsseldorf, Germany}
+      \field{year}{2011}
+    \endentry
+    \entry{Jamaludin.2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dab6de5a46ab5718c416a1a214157b73}{%
+           family={Jamaludin},
+           familyi={J\bibinitperiod},
+           given={Husna},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0d514a94a94774951c6c0d6e87a2208b}{%
+           family={Elmaky},
+           familyi={E\bibinitperiod},
+           given={Hashim\bibnamedelimb Suliman\bibnamedelima Elshreef},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=2c7fca9a2e7f0361b189e17f747a7758}{%
+           family={Sulaiman},
+           familyi={S\bibinitperiod},
+           given={Sarina},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e2e4272afe378b7128e0674e1065018}
+      \strng{fullhash}{7e2e4272afe378b7128e0674e1065018}
+      \strng{bibnamehash}{7e2e4272afe378b7128e0674e1065018}
+      \strng{authorbibnamehash}{7e2e4272afe378b7128e0674e1065018}
+      \strng{authornamehash}{7e2e4272afe378b7128e0674e1065018}
+      \strng{authorfullhash}{7e2e4272afe378b7128e0674e1065018}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{27724271}
+      \field{journaltitle}{Energy Nexus}
+      \field{title}{The future of food waste: Application of circular economy}
+      \field{volume}{7}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1016/j.nexus.2022.100098
+      \endverb
+    \endentry
+    \entry{StatistischesBundesamt.2022b}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c67d4b4a4397f84a4fe4580e6f9aa63d}{%
+           family={{Statistisches Bundesamt}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{fullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{bibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorbibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authornamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorfullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Lebensmittelabfälle in Deutschland: Lebensmittelabfälle in Deutschland im Berichtsjahr 2020 (vorläufiges Ergebnis)}
@@ -99,7 +202,356 @@
       \verb{url}
       \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Umwelt/Abfallwirtschaft/Tabellen/lebensmittelabfaelle.html
       \endverb
-      \warn{\item misc entry 'StatistischesBundesamt.2022' (Input/Literatur/Literatur.bib): Invalid format '04.01.2024' of date field 'urldate' - ignoring}
+      \warn{\item misc entry 'StatistischesBundesamt.2022b' (Input/Literatur/Literatur.bib): Invalid format '04.01.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{ProjektREIF.}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=aa184179c38f622918f055ad7b0c3ece}{%
+           family={{Projekt REIF}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa184179c38f622918f055ad7b0c3ece}
+      \strng{fullhash}{aa184179c38f622918f055ad7b0c3ece}
+      \strng{bibnamehash}{aa184179c38f622918f055ad7b0c3ece}
+      \strng{authorbibnamehash}{aa184179c38f622918f055ad7b0c3ece}
+      \strng{authornamehash}{aa184179c38f622918f055ad7b0c3ece}
+      \strng{authorfullhash}{aa184179c38f622918f055ad7b0c3ece}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Anwendungspotentiale künstlicher Intelligenz zur Anwendungspotentiale künstlicher Intelligenz zur Verlustvermeidung in der Lebensmittelwertschöpfungskette}
+      \verb{urlraw}
+      \verb https://ki-reif.de/wp-content/uploads/2019/10/REIF_whitepaper_v8_upload.pdf
+      \endverb
+      \verb{url}
+      \verb https://ki-reif.de/wp-content/uploads/2019/10/REIF_whitepaper_v8_upload.pdf
+      \endverb
+    \endentry
+    \entry{EuropaischesParlament.2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=400310c5bb248b58df51c69876c4249e}{%
+           family={{Europäisches Parlament}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{400310c5bb248b58df51c69876c4249e}
+      \strng{fullhash}{400310c5bb248b58df51c69876c4249e}
+      \strng{bibnamehash}{400310c5bb248b58df51c69876c4249e}
+      \strng{authorbibnamehash}{400310c5bb248b58df51c69876c4249e}
+      \strng{authornamehash}{400310c5bb248b58df51c69876c4249e}
+      \strng{authorfullhash}{400310c5bb248b58df51c69876c4249e}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was ist künstliche Intelligenz und wie wird sie genutzt? Was ist künstliche Intelligenz?}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.europarl.europa.eu/news/de/headlines/society/20200827STO85804/was-ist-kunstliche-intelligenz-und-wie-wird-sie-genutzt
+      \endverb
+      \verb{url}
+      \verb https://www.europarl.europa.eu/news/de/headlines/society/20200827STO85804/was-ist-kunstliche-intelligenz-und-wie-wird-sie-genutzt
+      \endverb
+    \endentry
+    \entry{Sharma.2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6aeef312cb41697230dc1429bfdeea53}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Saurabh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=45f6f0f5a7eccb6b38c027c23498c0a8}{%
+           family={Gahlawat},
+           familyi={G\bibinitperiod},
+           given={Vijay\bibnamedelima Kumar},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e40b9682d147b534cbc15afa27a32e58}{%
+           family={Rahul},
+           familyi={R\bibinitperiod},
+           given={Kumar},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2c71f45a22553161c7755aa8ec19ce05}{%
+           family={Mor},
+           familyi={M\bibinitperiod},
+           given={Rahul\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4dae817d81edbc20be46850dd48315fa}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Mohit},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd8bad93954edbd2a0667d155a0acc32}
+      \strng{fullhash}{fde2fdc41a0ec21f98e16102ed9aae1d}
+      \strng{bibnamehash}{cd8bad93954edbd2a0667d155a0acc32}
+      \strng{authorbibnamehash}{cd8bad93954edbd2a0667d155a0acc32}
+      \strng{authornamehash}{cd8bad93954edbd2a0667d155a0acc32}
+      \strng{authorfullhash}{fde2fdc41a0ec21f98e16102ed9aae1d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Logistics}
+      \field{number}{4}
+      \field{title}{Sustainable Innovations in the Food Industry through Artificial Intelligence and Big Data Analytics}
+      \field{volume}{5}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3390/logistics5040066
+      \endverb
+    \endentry
+    \entry{Ho.2015}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=d32609788bc9282d67682bcd46e3bc81}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Howard},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Piscataway, NJ}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d32609788bc9282d67682bcd46e3bc81}
+      \strng{fullhash}{d32609788bc9282d67682bcd46e3bc81}
+      \strng{bibnamehash}{d32609788bc9282d67682bcd46e3bc81}
+      \strng{editorbibnamehash}{d32609788bc9282d67682bcd46e3bc81}
+      \strng{editornamehash}{d32609788bc9282d67682bcd46e3bc81}
+      \strng{editorfullhash}{d32609788bc9282d67682bcd46e3bc81}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4799-9926-2}
+      \field{title}{2015 IEEE International Conference on Big Data: Oct 29-Nov 01, 2015, Santa Clara, CA, USA : proceedings}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/servlet/opac?punumber=7347101
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/servlet/opac?punumber=7347101
+      \endverb
+    \endentry
+    \entry{Sugiono.2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=19fcc0df7073670149167defd992c117}{%
+           family={Sugiono},
+           familyi={S\bibinitperiod},
+           given={Sugiono},
+           giveni={S\bibinitperiod}}}%
+        {{hash=290380e8fe213b4071cd7bea0436face}{%
+           family={Soenoko},
+           familyi={S\bibinitperiod},
+           given={Rudy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=10969c2166bf930f866b96c9f68a68ec}{%
+           family={Riawati},
+           familyi={R\bibinitperiod},
+           given={Lely},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{48309131dada90d5fa920bb8815133c9}
+      \strng{fullhash}{48309131dada90d5fa920bb8815133c9}
+      \strng{bibnamehash}{48309131dada90d5fa920bb8815133c9}
+      \strng{authorbibnamehash}{48309131dada90d5fa920bb8815133c9}
+      \strng{authornamehash}{48309131dada90d5fa920bb8815133c9}
+      \strng{authorfullhash}{48309131dada90d5fa920bb8815133c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1970-8734}
+      \field{journaltitle}{International Review of Mechanical Engineering (IREME)}
+      \field{number}{1}
+      \field{title}{Investigating the Impact of Physiological Aspect on Cow Milk Production Using Artificial Intelligence}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{30}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.15866/ireme.v11i1.9873
+      \endverb
+    \endentry
+    \entry{Goyal.2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a18e2d41cbbde95d8f393a02d0e7257d}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Sumit},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ec7c146ea015bc1689c337a953479e7b}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Gyanendra\bibnamedelima Kumar},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a086cbbaadc27b293099a94918f87acc}
+      \strng{fullhash}{a086cbbaadc27b293099a94918f87acc}
+      \strng{bibnamehash}{a086cbbaadc27b293099a94918f87acc}
+      \strng{authorbibnamehash}{a086cbbaadc27b293099a94918f87acc}
+      \strng{authornamehash}{a086cbbaadc27b293099a94918f87acc}
+      \strng{authorfullhash}{a086cbbaadc27b293099a94918f87acc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{18724981}
+      \field{journaltitle}{Intelligent Decision Technologies}
+      \field{number}{2}
+      \field{title}{Intelligent Artificial Neural Network computing models for predicting shelf life of processed cheese}
+      \field{volume}{7}
+      \field{year}{2013}
+      \field{pages}{107\bibrangedash 111}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.3233/IDT-130154
+      \endverb
+    \endentry
+    \entry{Buckingham.1995}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3042e8a40ea98994e53c6c59ee22b4db}{%
+           family={Buckingham},
+           familyi={B\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6c9a5735adbf6db7855deadc7048d51b}{%
+           family={{Davey CBE}},
+           familyi={D\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{797c4f90a1fd7e6a9c3807259cd06c3b}
+      \strng{fullhash}{797c4f90a1fd7e6a9c3807259cd06c3b}
+      \strng{bibnamehash}{797c4f90a1fd7e6a9c3807259cd06c3b}
+      \strng{authorbibnamehash}{797c4f90a1fd7e6a9c3807259cd06c3b}
+      \strng{authornamehash}{797c4f90a1fd7e6a9c3807259cd06c3b}
+      \strng{authorfullhash}{797c4f90a1fd7e6a9c3807259cd06c3b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0143-991X}
+      \field{journaltitle}{Industrial Robot: An International Journal}
+      \field{number}{5}
+      \field{title}{This robot's gone fishing}
+      \field{volume}{22}
+      \field{year}{1995}
+      \field{pages}{12\bibrangedash 14}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1108/01439919510147790
+      \endverb
+    \endentry
+    \entry{Kodogiannis.2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ba1d1ab66b43fc46f55ed97ffd340ca0}{%
+           family={Kodogiannis},
+           familyi={K\bibinitperiod},
+           given={Vassilis\bibnamedelima S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=81c62cd6f863823bb019edf523c031f0}{%
+           family={Pachidis},
+           familyi={P\bibinitperiod},
+           given={Theodore},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8499490a295e2b060384000c93e1a8d4}{%
+           family={Kontogianni},
+           familyi={K\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a80343f6b78a25205b6155561d009d56}
+      \strng{fullhash}{a80343f6b78a25205b6155561d009d56}
+      \strng{bibnamehash}{a80343f6b78a25205b6155561d009d56}
+      \strng{authorbibnamehash}{a80343f6b78a25205b6155561d009d56}
+      \strng{authornamehash}{a80343f6b78a25205b6155561d009d56}
+      \strng{authorfullhash}{a80343f6b78a25205b6155561d009d56}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09521976}
+      \field{journaltitle}{Engineering Applications of Artificial Intelligence}
+      \field{title}{An intelligent based decision support system for the detection of meat spoilage}
+      \field{volume}{34}
+      \field{year}{2014}
+      \field{pages}{23\bibrangedash 36}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.engappai.2014.05.001
+      \endverb
+    \endentry
+    \entry{Nychas.2008}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4f176271a2ca73ca8b085739270aef3d}{%
+           family={Nychas},
+           familyi={N\bibinitperiod},
+           given={George-John\bibnamedelima E.},
+           giveni={G\bibinithyphendelim J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8cee4b7e417f3551b67ab8fedbdff30d}{%
+           family={Skandamis},
+           familyi={S\bibinitperiod},
+           given={Panos\bibnamedelima N.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=9d404aab8c9f4928cab363d86fad8932}{%
+           family={Tassou},
+           familyi={T\bibinitperiod},
+           given={Chrysoula\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=432b48717104ef53e66338a861a555ca}{%
+           family={Koutsoumanis},
+           familyi={K\bibinitperiod},
+           given={Konstantinos\bibnamedelima P.},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{806bed2c43660cc8f947068673009924}
+      \strng{fullhash}{cd7fa129d2ca4a5a378bdcfede29617b}
+      \strng{bibnamehash}{806bed2c43660cc8f947068673009924}
+      \strng{authorbibnamehash}{806bed2c43660cc8f947068673009924}
+      \strng{authornamehash}{806bed2c43660cc8f947068673009924}
+      \strng{authorfullhash}{cd7fa129d2ca4a5a378bdcfede29617b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Meat spoilage during distribution can be considered as an ecological phenomenon that encompasses the changes of the available substrata (e.g., low molecular compounds), during the prevailing of a particular microbial association, the so-called specific spoilage organisms (SSO). In fact, spoilage of meat depends on an even smaller fraction of SSO, called ephemeral spoilage organisms (ESO). These ESO are the consequence of factors that dynamically persist or imposed during, e.g., processing, transportation and storage in the market. Meanwhile spoilage is a subjective judgment by the consumer, which may be influenced by cultural and economic considerations and background as well as by the sensory acuity of the individual and the intensity of the change. Indeed, when spoilage progresses, most consumers would agree that gross discoloration, strong off-odors, and the development of slime would constitute the main qualitative criteria for meat rejection. On the other hand, meat industry needs rapid analytical methods or tools for quantification of these indicators to determine the type of processing needed for their raw material and to predict remaining shelf life of their products. The need of an objective evaluation of meat spoilage is of great importance. The use of metabolomics as a potential tool for the evaluation of meat spoilage can be of great importance. The microbial association of meat should be monitored in parallel with the estimation of changes occurring in the production and/or assimilation of certain compounds would allow us to evaluate spoilage found or produced during the storage of meat under different temperatures as well as packaging conditions.}
+      \field{issn}{0309-1740}
+      \field{journaltitle}{Meat science}
+      \field{number}{1-2}
+      \field{title}{Meat spoilage during distribution}
+      \field{volume}{78}
+      \field{year}{2008}
+      \field{pages}{77\bibrangedash 89}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.meatsci.2007.06.020
+      \endverb
+    \endentry
+    \entry{Visionpier.}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ec8fab4372c6fa6ac21dce1dd35d6566}{%
+           family={Visionpier},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec8fab4372c6fa6ac21dce1dd35d6566}
+      \strng{fullhash}{ec8fab4372c6fa6ac21dce1dd35d6566}
+      \strng{bibnamehash}{ec8fab4372c6fa6ac21dce1dd35d6566}
+      \strng{authorbibnamehash}{ec8fab4372c6fa6ac21dce1dd35d6566}
+      \strng{authornamehash}{ec8fab4372c6fa6ac21dce1dd35d6566}
+      \strng{authorfullhash}{ec8fab4372c6fa6ac21dce1dd35d6566}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wie kann die Qualitätssicherung im Schlachthof durch Automatisierung optimiert werden?}
+      \verb{urlraw}
+      \verb https://de.visionpier.com/blog-item/optimization-quality-assurance-slaughterhouse.html
+      \endverb
+      \verb{url}
+      \verb https://de.visionpier.com/blog-item/optimization-quality-assurance-slaughterhouse.html
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -1,18 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.blg'
-[165] biber-MSWIN64:340> INFO - === 
-[242] Biber.pm:419> INFO - Reading 'C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.bcf'
-[415] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
-[438] Biber.pm:4419> INFO - Processing section 0
-[456] Biber.pm:4610> INFO - Looking for bibtex file 'Input/Literatur/Literatur.bib' for section 0
-[513] bibtex.pm:1713> INFO - LaTeX decoding ...
-[572] bibtex.pm:1519> INFO - Found BibTeX data source 'Input/Literatur/Literatur.bib'
-[653] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[653] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[654] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[654] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[663] bbl.pm:660> INFO - Writing 'C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.bbl' with encoding 'UTF-8'
-[666] bbl.pm:763> INFO - Output to C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.bbl
-[666] Biber.pm:131> WARN - book entry 'Schmidt.2019' (Input/Literatur/Literatur.bib): Invalid format '04.01.2024' of date field 'urldate' - ignoring
-[667] Biber.pm:131> WARN - misc entry 'StatistischesBundesamt.2022' (Input/Literatur/Literatur.bib): Invalid format '04.01.2024' of date field 'urldate' - ignoring
-[667] Biber.pm:133> INFO - WARNINGS: 2
+[185] biber-MSWIN64:340> INFO - === 
+[241] Biber.pm:419> INFO - Reading 'C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.bcf'
+[419] Biber.pm:979> INFO - Found 15 citekeys in bib section 0
+[444] Biber.pm:4419> INFO - Processing section 0
+[466] Biber.pm:4610> INFO - Looking for bibtex file 'Input/Literatur/Literatur.bib' for section 0
+[535] bibtex.pm:1713> INFO - LaTeX decoding ...
+[617] bibtex.pm:1519> INFO - Found BibTeX data source 'Input/Literatur/Literatur.bib'
+[821] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[821] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[821] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[821] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[846] bbl.pm:660> INFO - Writing 'C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.bbl' with encoding 'UTF-8'
+[860] bbl.pm:763> INFO - Output to C:\Users\patri\OneDrive\Dokumente\4_Studium\2_München\3_Seminar-Systeme\2_Ausarbeitung\Seminararbeit-Seminar-Systeme\.aux\main.bbl
+[861] Biber.pm:131> WARN - book entry 'Schmidt.2019' (Input/Literatur/Literatur.bib): Invalid format '04.01.2024' of date field 'urldate' - ignoring
+[861] Biber.pm:131> WARN - misc entry 'StatistischesBundesamt.2022' (Input/Literatur/Literatur.bib): Invalid format '04.01.2024' of date field 'urldate' - ignoring
+[861] Biber.pm:131> WARN - misc entry 'StatistischesBundesamt.2022b' (Input/Literatur/Literatur.bib): Invalid format '04.01.2024' of date field 'urldate' - ignoring
+[861] Biber.pm:133> INFO - WARNINGS: 3

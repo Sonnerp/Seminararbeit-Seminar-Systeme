@@ -21,7 +21,7 @@
 \usepackage[ngerman]{babel} %Rechtschreibung deutsch
 %Überschriften
 \setcounter{secnumdepth}{5} %Nummerierung der Absätze
-\setcounter{tocdepth}{5} %Wie viele Ebenen im Inhaltsverzeichnis stehen
+\setcounter{tocdepth}{2} %Wie viele Ebenen im Inhaltsverzeichnis stehen
 \RedeclareSectionCommand[afterskip=1sp]{section} %Abstand nach Überschriften
 \RedeclareSectionCommand[afterskip=1sp]{subsection} %Anstand nach Unterüberschriften
 \RedeclareSectionCommand[afterskip=1sp]{subsubsection} %Anstand nach Unterunterüberschriften
@@ -48,7 +48,14 @@
 \usepackage{placeins} %\FloatBarrier verhindert, dass Text an Bildern/Tabellen vorbei kann.
 
 %% Grafiken erstellen
-\usepackage{pgf-pie}
+\usepackage{pgf-pie} %Kreisdiagramm
+\usetikzlibrary{chains, positioning, shapes.symbols} %Signalflow 
+\usepackage{enumitem}
+\usepackage{etoolbox}
+\AtBeginEnvironment{tikzpicture}{%
+    \setlist[itemize]{topsep=0pt, parsep=0pt,
+                      leftmargin=2em}
+                                }
 
 %% Einbinden von PDFs
 \usepackage{pdfpages}
@@ -103,7 +110,7 @@
 %Abbildungsverzeichnis
 \addcontentsline{toc}{section}{Abbildungsverzeichnis}
 \listoffigures
-\newpage
+%\newpage
 
 %Tabellenverzeichnis
 \addcontentsline{toc}{section}{Tabellenverzeichnis}
@@ -117,13 +124,15 @@
 \input{Input/Text/1_Motivation.tex}
 \newpage
 
-\input{Input/Text/2_Aktueller Stand.tex}
-\newpage
 
-\input{Input/Text/3_Wertschöpfungsketten.tex}
-\newpage
+%\input{Input/Text/3_Wertschöpfungsketten.tex}
+%\newpage
 
 \input{Input/Text/4_Methoden.tex}
+\newpage
+
+
+\input{Input/Text/2_Aktueller Stand.tex}
 \newpage
 
 \input{Input/Text/5_Fazit.tex}
@@ -133,8 +142,8 @@
 \clearpage 
 \pagenumbering{Roman}
 
-\input{Input/Text/6_Anhang.tex}
-\newpage 
+%\input{Input/Text/6_Anhang.tex}
+%\newpage 
 
 %Literaturverzeichnis nach Abbildungen, Bücher, Datenblatt, Normen, Internet
 \addcontentsline{toc}{section}{Literaturverzeichnis}

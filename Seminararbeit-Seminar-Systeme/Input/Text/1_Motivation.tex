@@ -1,1 +1,65 @@
-\section{Motivation}
+\section{Einleitung}
+Der Lebensmitteleinkauf wird oft nicht von einer geplanten Liste oder zwingenden Notwendigkeiten bestimmt, sondern von spontanen Impulsen und verlockenden Angeboten. Die Folge, viele Produkte landen im Wagen, die vor Ablauf ihres Mindesthaltbarkeitsdatums niemals verbraucht werden können oder verderben - vom Regal direkt in die Tonne. Diese nichtige Entsorgung von Lebensmitteln, auch bekannt als Food Waste, ist weltweit ein ernstzunehmendes Problem. Spezifischen Schätzungen zufolge werden in Deutschland jährlich etwa 11 Millionen Tonnen Lebensmittel weggeworfen, etwa die Hälfte davon vermeidbar \cite{Schmidt.2019}. 
+
+Lebensmittelabfälle zählen zu den Verlusten, die sich durch die gesamte Lieferkette ziehen, von der landwirtschaftlichen Produktion zur Verarbeitung in der Nahrungsmittelindustrie, vom Einzelhandel bis hin zum Endverbraucher. 
+
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        \pie[text=legend, rotate = 0, explode={0, 0, 0, 0, 0}, radius = 3.5, color = {HMrot!20!white, HMrot!40!white, HMrot!60!white, HMrot!80!white, HMrot!100!white,}]{2/Primärerzeugung, 7/Handel, 15/Verarbeitung und Herstellung, 17/Gaststätten und Verpflegungsdienstleistungen, 59/Private Haushalte}
+    \end{tikzpicture}
+    \caption[Lebensmittelabfälle in Deutschland im Jahr 2020]{Lebensmittelabfälle in Deutschland im Jahr 2020 \cite{StatistischesBundesamt.2022}}
+    \label{fig:AnteilAbfälle}
+\end{figure}
+\FloatBarrier
+
+Wie in Abbildung \ref{fig:AnteilAbfälle} zu sehen,  ist mit $59\%$ ($6,5\,\text{Mio. t}$) der größte Anteil der Lebensmittelabfällen in Deutschland den privaten Haushalten zuzuordnen, dies entspricht etwa $78\,\text{kg}$ pro Person und Jahr. Einen weiteren großen Anteil mit $17\%$ ($1,9\,\text{Mio. t}$) besitzt die Außer-Haus-Verpflegung. Auch entlang der Herstellung fällt viel Abfall an, wobei die Primärproduktion einen Anteil von $2\%$ ($0,2\,\text{Mio. t}$), die Verarbeitung $15\%$ ($1,6\,\text{Mio. t}$) und der Handel $7\%$ ($0,8\,\text{Mio. t}$) den geringeren Teil ausmachen. Es ist deutlich, dass die Lebensmittelabfallproblematik in verschiedenen Phasen der Lieferkette und insbesondere im häuslichen Umfeld signifikante Ausmaße annimmt.
+ 
+Die \ac{fao} hat in ihren statistischen Veröffentlichungen deutlich gemacht, dass etwa ein Drittel der Lebensmittel, die für den Verzehr produziert werden, verschwendet wird. Dies entspricht nahezu $1,3,\text{Mrd. t.}$ an Lebensmittelabfällen \cite{Cederberg.2011}. Darüber hinaus verursacht dies jährlich Kosten in Höhe von 936 Milliarden US-Dollar für die globale Wirtschaft \cite{Jamaludin.2022}.
+
+Diese beeindruckenden Zahlen erscheint besonders besorgniserregend, wenn man die weltweit 735 Millionen Menschen in Betracht zieht, die unter Hunger leiden \cite{StatistischesBundesamt.2022b}. Diese Problematik hat nicht nur schwerwiegende Auswirkungen auf die Umwelt, sondern beeinflusst auch soziale und ökonomische Aspekte in beträchtlichem Maße.
+
+Die Folgen erstrecken sich über verschiedene Ebenen, die Ressourcen, die für die Produktion dieser Lebensmittel eingesetzt werden, gehen verloren, was ökologische sowie ökonomische Konsequenzen nach sich zieht. Ebenso spielt eine optimierte Logistik sowie Lagerhaltung zum Handel sowie abschließend bis zum Endverbraucher eine entscheidende Rolle. Die Implementierung neuer Maßnahmen ist daher essenziell, um das Problem der Lebensmittelverschwendung anzugehen und einen positiven Einfluss auf die Ernährungssicherheit und die Reduzierung der Umweltbelastung auszuüben.
+
+Die Reduzierung von Lebensmittelabfällen sollte in sämtlichen Phasen der Wertschöpfungskette Priorität haben. Obwohl viele Aspekte rund um die Produktion und den Handel von Lebensmitteln optimiert werden könnten, ist es angesichts des enormen Volumens und des täglichen Bedarfs kaum möglich, nicht verwendbare Lebensmittelabfälle vollständig zu vermeiden. Eine Verbesserung der Produktions- und Logistikprozesse, insbesondere in Verbindung mit einem bewussteren Umgang und einer höheren Wertschätzung von Lebensmitteln im Allgemeinen, kann jedoch zu Fortschritten führen und die Menge an verschwendeten Nahrungsmitteln reduzieren. Der Großteil der oft unnötigen Lebensmittelabfälle entsteht beim Endverbraucher.
+
+
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}[
+        node distance = 2mm,
+          start chain = going right,
+         start/.style = {signal, draw=#1, fill=#1!100,
+                         text width=30mm, minimum height=55mm,
+                         signal pointer angle=150, on chain},
+          cont/.style = {start=#1, signal from=west}
+                         ]
+        
+        \node[start=HMrot!100!white] {\textbf{Landwirtschaft}\\
+            \begin{itemize}
+                \item Schwan\-kende Erträge
+                \item Qualitäts\-schwan\-kungen
+            \end{itemize}   };
+        \node[cont=HMrot!80!white] {\textbf{Produktion}\\
+            \begin{itemize}
+                \item Verluste durch Überproduktion
+                \item Falsche Bestellmengen
+            \end{itemize}   };
+        \node[cont=HMrot!60!white] {\textbf{Handel}\\
+            \begin{itemize}
+                \item Qualitäts\-ausschuss
+                \item Falsche Bestellmengen
+            \end{itemize}};     
+        \node[cont=HMrot!40!white] {\textbf{Verbraucher}\\
+            \begin{itemize}
+                \item Schwan\-kende Nachfragen
+                \item Falsche Lagerhaltung
+            \end{itemize}};                     
+    \end{tikzpicture}
+    \caption[Lebensmittelverluste entlang der Wertschöpfungskette]{Lebensmittelverluste entlang der Wertschöpfungskette \cite{ProjektREIF.}}
+    \label{fig:Verlustkette}
+\end{figure}
+
+Die Lebensmittelverarbeitung kann nun zyklisch erfolgen, dennoch entsteht eine komplexe Lieferkette, wie sie in Abbildung \ref{fig:Verlustkette} zu sehen ist und erfordert einen neuen Ansatz. Die Integration von \ac{ki}-Technologien bietet eine vielversprechende Perspektive, um innovative Lösungen für die Überwachung, Analyse und Optimierung der Lebensmittel\-produktions- und Lieferketten bereitzustellen. Es besteht das Potenzial, das Bewusstsein zu schärfen und weltweit nachhaltige Praktiken zu fördern, um die Herausforderungen der Lebensmittelverschwendung zu bewältigen. \ac{ki}-Technologien können effektive Überwachungsmechanismen etablieren, Engpässe identifizieren und Prozesse optimieren, um Ressourcen effizienter zu nutzen und Verschwendung zu reduzieren.
+
+Ein besonderes Augenmerk soll in dieser Seminararbeit auf die Betrachtung von verderblichen Lebensmitteln im Herstellungsprozess geworfen werden. Dort treten häufig erhebliche Lebensmittelverluste auf, vor allem aufgrund der empfindlichen Verderblichkeit der Produkte. Darüber hinaus geht die Herstellung und Verarbeitung dieser Produkte mit einem erheblichen Aufwand einher, was zu hohen Produktionskosten führt.
